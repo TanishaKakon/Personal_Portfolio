@@ -84,11 +84,11 @@
 
                     <div class="sm">
         
-        <a href="https://github.com/TanishaKakon" class="fab fa-github"></a>
-      </div>
+                      <a href="https://github.com/TanishaKakon" class="fab fa-github"></a>
+                   </div>
                     
-                </div><br>
-                <div class="right">
+                   </div><br/><br/>
+                 <div class="right">
                     <div class="bars">
                         <div class="info">
                             <span>HTML,CSS</span>
@@ -209,12 +209,12 @@
         </div>
       </div>
 
-      <form action="#" class="contact-form">
-        <input type="text" class="nameZone" placeholder="Your Name" required>
-        <input type="email" class="emailZone" placeholder="Your Email" required>
-        <input type="text" class="subjectZone" placeholder="Subject" required>
-        <textarea class="messageZone" placeholder="Message.." required></textarea>
-        <input type="submit" value="Send Message" class="btn">
+      <form action="contact.php" method="POST" class="contact-form">
+        <input type="text" name="UName" class="nameZone" placeholder="Your Name" required>
+        <input type="email" name="Email" class="emailZone" placeholder="Your Email" required>
+        <input type="text" name="Subject" class="subjectZone" placeholder="Subject" required>
+        <textarea name="Message" class="messageZone" placeholder="Message.." required></textarea>
+        <input type="submit" name="submit" value="Send Message" class="btn">
       </form>
     </div>
   </section>
