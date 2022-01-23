@@ -1,6 +1,6 @@
 <?php
   
-  if (isset($_POST["submit"])) {
+  
     $name = $_POST['UName'];
     $email = $_POST['Email'];
     $subject = $_POST['Subject'];
@@ -18,6 +18,6 @@
       echo "<script>alert('Mail Not Send.');</script>";
     }
 
-  }
+  
 
 ?>
