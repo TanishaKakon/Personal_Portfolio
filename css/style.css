@@ -466,6 +466,10 @@ section.dark .section-title::after {
   background-color: #222;
   color: #fff;
 }
+.hidden {
+  visibility: hidden;
+  height: 0;
+}
 
 footer {
   background: url(../images/bg6.jpg) no-repeat center;
